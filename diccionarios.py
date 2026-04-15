@@ -12,16 +12,16 @@
 # print(datos_perfil) #imprimimos el diccionario fusionado, que contiene los datos combinados de ambos diccionarios
 
 #Creamos la ficha tecnica de un influencer usando un diccionario
-campaña_verano = {
-    "cliente": "SuperSoda",
-    "presupuesto": 50000,
-    "redes": ["Instagram", "TikTok"],
-    "objetivo_kpi": "Aumentar seguidores",
-    "finalizada": False
-}
-#Pedimos los datos del cliente usando las claves del diccionario
-print(f"Campaña para el cliente: {campaña_verano['cliente']}")
-#Actualizamos el presupuesto de la campaña
-campaña_verano["presupuesto"] = 60000
-campaña_verano["responsable"] = "Sara"#Agregamos una nueva clave-valor al diccionario para indicar el responsable de la campaña
-print(f"Actualizacion de la campaña: {campaña_verano}")
+# campaña_verano = {
+#     "cliente": "SuperSoda",
+#     "presupuesto": 50000,
+#     "redes": ["Instagram", "TikTok"],
+#     "objetivo_kpi": "Aumentar seguidores",
+#     "finalizada": False
+# }
+# #Pedimos los datos del cliente usando las claves del diccionario
+# print(f"Campaña para el cliente: {campaña_verano['cliente']}")
+# #Actualizamos el presupuesto de la campaña
+# campaña_verano["presupuesto"] = 60000
+# campaña_verano["responsable"] = "Sara"#Agregamos una nueva clave-valor al diccionario para indicar el responsable de la campaña
+# print(f"Actualizacion de la campaña: {campaña_verano}")
