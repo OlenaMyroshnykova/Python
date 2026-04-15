@@ -25,3 +25,16 @@
 # campaña_verano["presupuesto"] = 60000
 # campaña_verano["responsable"] = "Sara"#Agregamos una nueva clave-valor al diccionario para indicar el responsable de la campaña
 # print(f"Actualizacion de la campaña: {campaña_verano}")
+
+influencers = [
+    {"nombre": "Cristiano Ronaldo", "seguidores": 673_000_000, "tematica": "Deporte"},
+    {"nombre": "Selena Gomez", "seguidores": 414_000_000, "tematica": "Entretenimiento"},
+    {"nombre": "Kylie Jenner", "seguidores": 390_000_000, "tematica": "Belleza"}
+]
+
+# Añadir un 4º influencer usando append()
+nuevo_influencer = {"nombre": "Kim Kardashian", "seguidores": 352_000_000, "tematica": "Moda"}
+influencers.append(nuevo_influencer)
+
+# Imprimir el nombre del segundo influencer
+print(influencers[1]["nombre"])
