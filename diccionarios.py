@@ -32,9 +32,8 @@ influencers = [
     {"nombre": "Kylie Jenner", "seguidores": 390_000_000, "tematica": "Belleza"}
 ]
 
-# Añadir un 4º influencer usando append()
 nuevo_influencer = {"nombre": "Kim Kardashian", "seguidores": 352_000_000, "tematica": "Moda"}
 influencers.append(nuevo_influencer)
 
-# Imprimir el nombre del segundo influencer
 print(influencers[1]["nombre"])
+print(influencers)
